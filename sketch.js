@@ -85,7 +85,7 @@ function spawnObstaclesTop()
     //gerar obstáculos superiores aleatórios
     //var rand = Math.round(random(0,1));
     //var rand = random(1,2);
-   // var rand = Math.round(random(1,2));
+    var rand = Math.round(random(1,2));
 //var rand=roundoff(random(1,2))
 
     switch(rand) {
@@ -99,7 +99,7 @@ function spawnObstaclesTop()
      //atribuir tempo de vida à variável
    obstacleTop.lifetime = 100;
    //obstacleTop.depth=obstacleTop.depth+1;
-    //balloon.depth = balloon.depth + 1;
+    balloon.depth = balloon.depth + 1;
  //  balloon.depth = balloon.depth - 1;
       //obstacleTop.depth=obstacleTop.depth-1;
 
